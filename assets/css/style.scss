@@ -7,6 +7,7 @@ div.my-html nav ul {
   display: flex;
   gap: 15px;
   border-bottom: 2px solid #ccc;
+  margin-bottom: 0; /* remove default gap */
 }
 div.my-html nav ul li a {
     text-decoration: none;
@@ -14,23 +15,25 @@ div.my-html nav ul li a {
     display: block;
     font-weight: bold;
     color: #0366d6;
+    border: 1px solid transparent;
     border-radius: 5px 5px 0 0;
 }
 div.my-html nav ul li a.active {
-  background: #fff;
+  background: #f0f0f0;
   border: 1px solid #ccc;
-  border-bottom: none;
+  border-bottom: 1px solid #fff; /* merge with section */
   color: #0366d6;
 }
 div.my-html nav ul li a:hover {
-    background: #f0f0f0;
+    background: #a0a0a0;
 }
 div.my-html section {
     display: none !important;
     padding: 15px;
     border: 1px solid #ccc;
-    border-top: none;
+    border-top: none; /* so it connects to active tab */
     background: #fff;
+    margin-top: -1px; /* aligns perfectly with active tab */
 }
 div.my-html section.active {
     display: block !important;
