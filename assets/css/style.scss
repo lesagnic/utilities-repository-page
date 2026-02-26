@@ -33,7 +33,7 @@ div.my-html nav ul li a.active {
 div.my-html nav ul li a:not(.active):hover {
   background: #fafafa;
 }
-div.my-html section {
+div.section {
   display: none !important;
   padding: 1rem 0 !important;
   border: 1px solid #ccc !important;
@@ -43,7 +43,7 @@ div.my-html section {
   box-sizing: border-box;
   width: 100% !important;
 }
-div.my-html section.active {
+div.section.active {
   display: block !important;
   width: 100% !important;
 }
