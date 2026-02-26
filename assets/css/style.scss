@@ -2,10 +2,6 @@
 ---
 @import "jekyll-theme-minimal";
 /* Force nav to span full width */
-div.my-html header {
-  width: 100% !important;
-  box-sizing: border-box;
-}
 div.my-html nav {
   width: 100% !important;
   border-bottom: 2px solid #ccc !important;
