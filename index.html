@@ -3,7 +3,36 @@ layout: default
 title: Page de référentiel
 ---
 <div class="my-header">
-  
+
+  /*******************
+    Shields
+   *******************/
+  /* TODO : replace utilities-repository-page with the name of your repository */
+  <a href="https://github.com/lesagnic/utilities-repository-page/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/lesagnic/utilities-repository-page.svg?style=plastic" alt="Contributors">
+  </a>
+  <a href="https://github.com/lesagnic/utilities-repository-page/network/members">
+    <img src="https://img.shields.io/github/forks/lesagnic/utilities-repository-page.svg?style=plastic">
+  </a>
+  <a href="https://github.com/lesagnic/utilities-repository-page/stargazers">
+    <img src="https://img.shields.io/github/stars/lesagnic/utilities-repository-page.svg?style=plastic">
+  </a>
+  <a href="https://github.com/lesagnic/utilities-repository-page/issues">
+    <img src="https://img.shields.io/github/issues/lesagnic/utilities-repository-page.svg?style=plastic">
+  </a>  
+  <a href="https://github.com/lesagnic/utilities-repository-page/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/lesagnic/utilities-repository-page.svg?style=plastic">
+  </a>  
+  <a href="https://www.linkedin.com/in/nicolas-lesage-1a2049b0/">
+    <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=555">
+  </a>  
+
+  /*******************
+    Menu
+   *******************/
+  /* TODO : Adjust menu items adding a removing li elements
+     There should a single li.active
+     data-section attributes shall contain the id of a div.section element of this html file */
   <nav>
     <ul>
       <li><a href="#" class="active" data-section="accueil">Accueil</a></li>
@@ -12,6 +41,12 @@ title: Page de référentiel
   </nav>
   
 </div>
+
+/*******************
+  Sections
+ *******************/
+/* There shall be one and only one div.section element for each menu item.
+   It's id is the value of the data-section attribute of the menu item (li element) */
 
 <div id="accueil" class="my-section active">
   <p>C'est l'accueil</p>
@@ -40,6 +75,7 @@ title: Page de référentiel
     });
   });
 </script>
+
 
 
 
