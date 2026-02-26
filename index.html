@@ -77,7 +77,17 @@ de documentation du produit de votre future référentiel.</p>
 
 <div id="startwith" class="my-section">
   <h3>Prérequis</h3>
-  <p>Ce qu'il faut pour commencer...</p>
+  <p>Simplement souhaiter documenter un référentiel Github ou faire évoluer 
+    la documentation d'un reférentiel Github existant avec une page telle que celle-ci.</p>
+  <p>Techniquement, il est recommandé que les fichiers du produit objet du référentiel à documenter
+    soient placés dans un répertoire ad hoc différents de assets pour s'assurer qu'il n'y a pas de
+    conflits avec les fichiers nécessaires à la documentations. Notamment, le référentiel à documenter ne
+    peut pas avoir de fichier index.html à sa racine. Les fichiers suivants sont servent à la documentation :</p>
+  <ul>
+    <li><a href="assets/img/logo.png">assets/img/logo.png</a> est à remplacer par le logo du produit faisant l'objet de référentiel Github à documenter ;</li>
+    <li><a href="assets/img/logo.png">assets/img/screenshot.png</a> est à remplacer par un aperçu du produit faisant l'objet dur référentiel à documenter ;</li>
+    <li><a href="assets/css/style.scss"> contrôle les styles de la documentation. Il peut être modifié pour ajuster les styles de la page de documetation. Par contre, si le produit contient du contenu HTML nécessitant des instructions CSS, il est recommandé de stocker ses instructions dans un autre fichier CSS qui pourra ainsi plus faciemezmnt être déployé.</li>
+  </ul>
   <h3>Mise en oeuvre</h3>
   <p>Les instuctions pour mettre en oeuvre</p>
 </div>
@@ -98,6 +108,7 @@ de documentation du produit de votre future référentiel.</p>
     });
   });
 </script>
+
 
 
 
