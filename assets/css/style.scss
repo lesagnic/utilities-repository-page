@@ -30,7 +30,7 @@ div.my-html nav ul li a.active {
   border-bottom: 1px solid #fff; /* merge with section */
   color: #0366d6;
 }
-div.my-html nav ul li a:hover {
+div.my-html nav ul li a:not(.active):hover {
   background: #fafafa;
 }
 div.my-html section {
