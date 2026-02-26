@@ -35,7 +35,7 @@
   background: #f8f8f8;
 }
 .my-section:not(.active) {
-  display: none;
+  display: none !important;
 }
 .my-section.active {
   display: block !important;
