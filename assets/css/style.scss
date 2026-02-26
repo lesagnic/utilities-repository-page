@@ -1,9 +1,7 @@
 ---
 ---
 @import "jekyll-theme-minimal";
-.my-header {
-  background: #f5f5f5;
-}
+
 /* Force nav to span full width */
 .my-header nav {
   width: 100% !important;
@@ -24,9 +22,10 @@
     font-weight: bold;
     color: #0366d6;
     border-radius: 5px 5px 0 0;
+    background: #ffffff;
 }
 .my-header nav ul li a.active {
-  background: #ffffff;
+  background: #f5f5f5;
   /*border: 1px solid #ccc;*/
   /*border-bottom: 1px solid #fff; merge with section */
   color: #0366d6;
@@ -36,7 +35,8 @@
 }
 .my-section {
   display: none;
-  padding: 1rem;
+  padding: 5px;
+  background: #f5f5f5;
   /*padding: 1rem 0 !important;
   border: 1px solid #ccc !important;
   border-top: none !important; *//* so it connects to active tab */
@@ -47,4 +47,7 @@
 }
 div.my-section.active {
   display: block !important;
+  padding: 5px;
+  background: #f5f5f5;
+  box-sizing: border-box;
 }
