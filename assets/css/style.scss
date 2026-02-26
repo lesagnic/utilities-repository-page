@@ -4,44 +4,32 @@
 
 /* Force nav to span full width */
 .my-header nav {
-  /*width: 100% !important;*/
-  border-bottom: 1px solid #ccc;
-  /*box-sizing: border-box;*/
 }
 .my-header nav ul {
   list-style: none;
   padding: 0;
   display: flex;
   gap: 15px;
-  margin-bottom: 0; /* remove default gap */
+  margin-bottom: 20px;
 }
 .my-header nav ul li a {
   text-decoration: none;
   padding: 10px 15px;
   display: block;
-  font-weight: bold;
-  color: #0366d6;
-  border-radius: 5px 5px 0 0;
-  border: 1px solid transparent;
-  background: #ffffff;
-  box-sizing: border-box;
+  font-weight: normal;
+  color: #333333;
 }
 .my-header nav ul li a.active {
+  font-weight: bold;
   color: #0366d6;
-  border: 1px solid #ccc !important;
-  border-bottom: 1px solid #fff !important; /* so it connects to active tab */
 }
 .my-header nav ul li a:hover {
-  background: #f5f5f5;
+  font-weight: normal;
+  color: #0366d6;
 }
 .my-section:not(.active) {
   display: none !important;
 }
 .my-section.active {
   display: block !important;
-  padding: 5px;
-  background: #ffffff;
-  box-sizing: border-box;
-  border: 1px solid #ccc !important;
-  border-top: 1px solid transparent;
 }
