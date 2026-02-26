@@ -24,6 +24,7 @@
   color: #0366d6;
   border-radius: 5px 5px 0 0;
   border: 1px solid transparent;
+  background: #ffffff;
 }
 .my-header nav ul li a.active {
   color: #0366d6;
@@ -39,8 +40,7 @@
 .my-section.active {
   display: block !important;
   padding: 5px;
-  background: #fff;
+  background: #ffffff;
   box-sizing: border-box;
   border: 1px solid #ccc !important;
-  z-index: 50;
 }
