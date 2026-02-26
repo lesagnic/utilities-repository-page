@@ -4,10 +4,9 @@
 
 /* Force nav to span full width */
 .my-header nav {
-  width: 100% !important;
+  /*width: 100% !important;*/
   border-bottom: 1px solid #ccc;
-  /*border-bottom: 2px solid #ccc !important;
-  box-sizing: border-box;*/
+  /*box-sizing: border-box;*/
 }
 .my-header nav ul {
   list-style: none;
@@ -25,6 +24,7 @@
   border-radius: 5px 5px 0 0;
   border: 1px solid transparent;
   background: #ffffff;
+  box-sizing: border-box;
 }
 .my-header nav ul li a.active {
   color: #0366d6;
