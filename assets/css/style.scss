@@ -16,7 +16,7 @@ div.my-html nav ul li a:hover {
     text-decoration: underline;
 }
 div.my-html section {
-    display: none;
+    display: none !important;
     padding: 1rem 0;
 }
 div.my-html section.active {
