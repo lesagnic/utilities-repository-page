@@ -3,7 +3,7 @@ layout: default
 title: Page de référentiel
 ---
 <div class="my-html">
-<div header>
+<div class="my-header">
   
   <nav>
     <ul>
@@ -14,11 +14,11 @@ title: Page de référentiel
   
 </div>
 
-<div id="accueil" class="section active">
+<div id="accueil" class="my-section active">
   <p>C'est l'accueil</p>
 </div>
 
-<div id="start-with" class"section">
+<div id="start-with" class"my-section">
   <h3>Prérequis</h3>
   <p>Ce qu'il faut pour commencer...</p>
   <h3>Mise en oeuvre</h3>
@@ -35,8 +35,8 @@ title: Page de référentiel
       const target = link.getAttribute('data-section');
 
       // Hide all sections
-      document.querySelectorAll('div.my-html nav a').forEach(a => a.classList.remove('active'));
-      document.querySelectorAll('div.my-html section').forEach(sec => sec.classList.remove('active'));
+      document.querySelectorAll('.my-header nav a').forEach(a => a.classList.remove('active'));
+      document.querySelectorAll('.my-section').forEach(sec => sec.classList.remove('active'));
 
       // Show the selected section
       link.classList.add('active');
@@ -44,6 +44,7 @@ title: Page de référentiel
     });
   });
 </script>
+
 
 
 
