@@ -1,6 +1,11 @@
 ---
 ---
 @import "jekyll-theme-minimal";
+body {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100vh; /* Full viewport height */
+}
 .my-header {
   flex-shrink: 0; /* Prevent shrinking */
 }
