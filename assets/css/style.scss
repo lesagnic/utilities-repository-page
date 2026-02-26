@@ -1,6 +1,9 @@
 ---
 ---
 @import "jekyll-theme-minimal";
+.my-header {
+  flex-shrink: 0; /* Prevent shrinking */
+}
 .my-header nav ul {
   list-style: none;
   margin-left: 0px;
@@ -30,4 +33,6 @@
 }
 .my-section.active {
   display: block !important;
+  overflow-y: auto; /* Scroll if content overflows */
+  flex: 1; /* Take remaining space */
 }
