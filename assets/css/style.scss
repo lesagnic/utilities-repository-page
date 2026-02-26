@@ -1,23 +1,23 @@
 ---
 ---
 @import "jekyll-theme-minimal";
-div.my-html div.header {
+.my-header {
   background: #f5f5f5;
 }
 /* Force nav to span full width */
-div.my-html nav {
+.my-header nav {
   width: 100% !important;
   /*border-bottom: 2px solid #ccc !important;
   box-sizing: border-box;*/
 }
-div.my-html nav ul {
+.my-header nav ul {
   list-style: none;
   padding: 0;
   display: flex;
   gap: 15px;
   margin-bottom: 0; /* remove default gap */
 }
-div.my-html nav ul li a {
+.my-header nav ul li a {
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -25,16 +25,16 @@ div.my-html nav ul li a {
     color: #0366d6;
     border-radius: 5px 5px 0 0;
 }
-div.my-html nav ul li a.active {
+.my-header nav ul li a.active {
   background: #ffffff;
   /*border: 1px solid #ccc;*/
   /*border-bottom: 1px solid #fff; merge with section */
   color: #0366d6;
 }
-div.my-html nav ul li a:not(.active):hover {
+.my-header nav ul li a:not(.active):hover {
   background: #f8f8f8;
 }
-div.section {
+.my-section {
   display: none;
   padding: 1rem;
   /*padding: 1rem 0 !important;
@@ -45,6 +45,6 @@ div.section {
   box-sizing: border-box;
   /*width: 100% !important;*/
 }
-div.section.active {
+div.my-section.active {
   display: block !important;
 }
