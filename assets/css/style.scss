@@ -1,24 +1,24 @@
 ---
 ---
 @import "jekyll-theme-minimal";
-nav ul {
+div.my-html nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     gap: 15px;
 }
-nav ul li a {
+div.my-html nav ul li a {
     text-decoration: none;
     color: #0366d6;
     font-weight: bold;
 }
-nav ul li a:hover {
+div.my-html nav ul li a:hover {
     text-decoration: underline;
 }
-section {
+div.my-html section {
     display: none;
     padding: 1rem 0;
 }
-section.active {
+div.my-html section.active {
     display: block !important;
 }
