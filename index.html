@@ -2,7 +2,6 @@
 layout: default
 title: Page de référentiel
 ---
-<div class="my-html">
 <div class="my-header">
   
   <nav>
@@ -23,13 +22,10 @@ title: Page de référentiel
   <p>Ce qu'il faut pour commencer...</p>
   <h3>Mise en oeuvre</h3>
   <p>Les instuctions pour mettre en oeuvre</p>
-  
-</div>
-
 </div>
 
 <script>
-  document.querySelectorAll('div.my-html nav a').forEach(link => {
+  document.querySelectorAll('div.my-header nav a').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
       const target = link.getAttribute('data-section');
@@ -44,6 +40,7 @@ title: Page de référentiel
     });
   });
 </script>
+
 
 
 
