@@ -2,10 +2,13 @@
 ---
 @import "jekyll-theme-minimal";
 /* Force nav to span full width */
+div.my-html header {
+  width: 100% !important;
+  box-sizing: border-box;
+}
 div.my-html nav {
   width: 100% !important;
   border-bottom: 2px solid #ccc !important;
-  background: #f5f5f5;
   box-sizing: border-box;
 }
 div.my-html nav ul {
@@ -26,7 +29,7 @@ div.my-html nav ul li a {
     border-radius: 5px 5px 0 0;
 }
 div.my-html nav ul li a.active {
-  background: #f0f0f0;
+  background: #f5f5f5;
   border: 1px solid #ccc;
   border-bottom: 1px solid #fff; /* merge with section */
   color: #0366d6;
