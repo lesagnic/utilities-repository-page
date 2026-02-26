@@ -2,22 +2,35 @@
 ---
 @import "jekyll-theme-minimal";
 div.my-html nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 15px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  border-bottom: 2px solid #ccc;
 }
 div.my-html nav ul li a {
     text-decoration: none;
-    color: #0366d6;
+    padding: 10px 15px;
+    display: block;
     font-weight: bold;
+    color: #0366d6;
+    border-radius: 5px 5px 0 0;
+}
+div.my-html nav ul li a.active {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  color: #0366d6;
 }
 div.my-html nav ul li a:hover {
-    text-decoration: underline;
+    background: #f0f0f0;
 }
 div.my-html section {
     display: none !important;
-    padding: 1rem 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: #fff;
 }
 div.my-html section.active {
     display: block !important;
