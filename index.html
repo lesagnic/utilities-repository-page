@@ -33,7 +33,7 @@ title: Page de référentiel
 
 <div id="prerequisites" class="my-section">
 {% capture prerequisites %}
-{% include prerequis.md %}
+{% include_relative prerequis.md %}
 {% endcapture %}
 {{ prerequisites | markdownify }} 
 <p>OK</p>
@@ -116,6 +116,7 @@ title: Page de référentiel
     });
   });
 </script>
+
 
 
 
