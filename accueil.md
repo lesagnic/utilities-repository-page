@@ -5,6 +5,7 @@
 [![Issues][issues-shield]][issues-url]
 [![Unlicense License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+
 <!-- TODO : Replace :
 			- lesagnic with account name of your repository,
 			- utilities-repository-page with the name of your repository -->
@@ -41,6 +42,7 @@ du produit de votre future référentiel.
 [license-url]: https://github.com/lesagnic/utilities-repository-page/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-linkedIn-black.svg?style=plastic&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nicolas-lesage-1a2049b0/
+
 
 
 
