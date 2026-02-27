@@ -31,7 +31,7 @@
     }
     .my-section {
         position: fixed; /* make it independent of page scroll */
-        top: 130px; /* header offset */
+        top: 110px; /* header offset */
         bottom: 50px;
         width: 500px;  /* adjust for left column width */
         overflow-y: auto; /* now this scrolls */
@@ -50,7 +50,7 @@
 .my-header nav ul li a {
   text-decoration: none;
   display: block;
-  font-weight: normal;
+  font-weight: bold;
   color: var(--menu-item-color);
   padding: 10px;
 }
@@ -58,7 +58,6 @@
   color: var(--menu-item-selected-color);
 }
 .my-header nav ul li a:not(.active):hover {
-  font-weight: bold;
   color: var(--menu-item-hover-color);
 }
 /*
