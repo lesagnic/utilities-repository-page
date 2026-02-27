@@ -19,7 +19,7 @@
     --menu-background: #f5f5f5;
     --menu-item-spacing: 8px;
     --menu-and-content-spacing: 30px;
-    border: 1px solid green;
+    border: 1px solid blue;
     background: white;
     z-index: 10;
 }
@@ -31,8 +31,7 @@
     }
     .my-section {
         position: fixed; /* make it independent of page scroll */
-        top: calc(30px + 60px); /* header offset */
-        right: 0;
+        top: 100px; /* header offset */
         bottom: 0; /* stick to bottom of viewport */
         /*width: calc(100% - 250px);  adjust for left column width */
         overflow-y: auto; /* now this scrolls */
