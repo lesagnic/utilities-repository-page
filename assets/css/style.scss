@@ -37,19 +37,6 @@
         border: 1px solid #e0e0e0;
         box-sizing: border-box;
         border-radius: 5px;
-        background-color: #fff;
-        background-clip: padding-box;
-    }
-    .my-section::-webkit-scrollbar {
-        width: 5px;
-    }
-    .my-section::-webkit-scrollbar-track {
-      background: #fff; /* match section background */
-      border-radius: 6px;
-    }
-    .my-section::-webkit-scrollbar-thumb {
-        background: #ccc;
-        border-radius: 6px;
     }
     .my-header nav ul {
         width: 500px;
