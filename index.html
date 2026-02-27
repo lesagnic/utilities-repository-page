@@ -28,7 +28,8 @@ title: Page de référentiel
 
 <p>flag</p>
 
-{% include accueil.md %}
+{{ "{% include accueil.md %}" | markdownify }}
+
   
 </div> <!-- End of section -->
 
@@ -128,6 +129,7 @@ title: Page de référentiel
     });
   });
 </script>
+
 
 
 
