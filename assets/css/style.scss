@@ -19,7 +19,7 @@
     --menu-background: #f5f5f5;
     --menu-item-spacing: 8px;
     --menu-and-content-spacing: 30px;
-    border: 1px solid blue;
+    border: 1px solid green;
     background: white;
     z-index: 10;
 }
@@ -27,13 +27,13 @@
 @media screen and (min-width: 940px) {
     .my-header {
         position: fixed;
-        top: 30px;
+        top: 50px;
     }
     .my-section {
         position: fixed; /* make it independent of page scroll */
-        top: 100px; /* header offset */
+        top: 150px; /* header offset */
         bottom: 0; /* stick to bottom of viewport */
-        /*width: calc(100% - 250px);  adjust for left column width */
+        width: calc(100% - 250px);  /* adjust for left column width */
         overflow-y: auto; /* now this scrolls */
         z-index: 9;
     }
