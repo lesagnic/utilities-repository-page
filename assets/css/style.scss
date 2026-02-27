@@ -42,6 +42,10 @@
     .my-section::-webkit-scrollbar {
         width: 5px;
     }  
+    .my-section::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 6px;
+    }
     .my-header nav ul {
         width: 500px;
     }
