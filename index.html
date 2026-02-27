@@ -5,8 +5,8 @@ title: Page de référentiel
 <div class="my-header">
 
   <!-- MENU
-       TODO : Adjust menu items adding a removing li elements
-              There should a single li.active
+       TODO : Adjust menu items adding or removing li elements
+              There should be a single li.active
               data-section attributes shall contain the id of a div.section element of this html file -->
   <nav>
     <ul>
@@ -22,7 +22,10 @@ title: Page de référentiel
 
 <!-- SECTIONS
      TODO: There shall be one and only one div.section element for each menu item.
-     It's id is the value of the data-section attribute of the menu item (li element) -->
+     It's id is the value of the data-section attribute of the menu item (li element)
+     Use the id (e.g. accueil) as liquid variable name
+     The file (e.g. accueil.md) should be place at the root of the repository (due to include_relative)
+     -->
 
 <div id="accueil" class="my-section active">
 {% capture accueil %}
@@ -53,25 +56,13 @@ title: Page de référentiel
 </div>
 
 <div id="contributing" class="my-section">
-  
-  <p>Voir la section <a href="https://github.com/lesagnic/utilities-repository-page/issues">open issues</a> pour accéder à la liste des capacités nouvelles identifiées.</p>
-
-  <p>Les contributions sont ce qui fait que la communauté open source est un endroit à ce point incroyable
-    pour apprendre, inspirer et créer. Toute contribution que vous pouvez faire est <strong>fortement appréciée</strong>.</p>
-  <p>Si vous avez des suggestions pour améliorer cette ressource, merci de clôner [eng. <i>Fork</i>] 
-    le référentiel Github et créer une demande de fusion de code [eng. <i>pull request</i>]. Vous pouvez aussi tout
-    simplement ouvrir un ticket [eng. <i>issue</i>] avec le tag <i>enhancement</i>.</p>
-  <p>N'oubliez pas d'ajouter une étoile au projet ! Merci d'avance.</p>
-  <p>
-      <a href="https://github.com/lesagnic/utilities-repository-page/stargazers">
-    <img src="https://img.shields.io/github/stars/lesagnic/utilities-repository-page.svg?style=plastic">
-  </a>
-  <a href="https://github.com/lesagnic/utilities-repository-page/issues">
-    <img src="https://img.shields.io/github/issues/lesagnic/utilities-repository-page.svg?style=plastic">
-  </a>  
-
-  </p>
+{% capture contributing %}
+{% include_relative contribution.md %}
+{% endcapture %}
+{{ contributing | markdownify }}
 </div>
+
+<!-- END OF CUSTOMIZABLE PART -->
 <script>
   document.querySelectorAll('.my-header nav a').forEach(link => {
     link.addEventListener('click', e => {
@@ -88,6 +79,7 @@ title: Page de référentiel
     });
   });
 </script>
+
 
 
 
