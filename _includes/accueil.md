@@ -23,7 +23,7 @@ du produit de votre future référentiel.
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- TODO : Replace the dummy screenshot.png file with your screenshot in /assets/img -->
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: /assets/img/screenshot.png
 <!-- TODO : Replace these URLs and shields with those of your Built in -->
 [BestReadme]: https://img.shields.io/badge/Github-Best--README--Template-000000?logo=Github&style=plastic&labelColor=F7AF40
 [BestReadMe-Url]: https://github.com/othneildrew/Best-README-Template
@@ -41,4 +41,5 @@ du produit de votre future référentiel.
 [license-shield]: https://img.shields.io/github/license/lesagnic/utilities-repository-page.svg?style=plastic
 [license-url]: https://github.com/lesagnic/utilities-repository-page/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=555
+
 [linkedin-url]: https://www.linkedin.com/in/nicolas-lesage-1a2049b0/
