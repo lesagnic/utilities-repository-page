@@ -27,13 +27,11 @@
     .my-header {
         position: fixed;
         top: 50px;
-        border: 1px solid #333;
-        border-bottom: 1px solid transparent;
     }
     .my-section {
         position: fixed; /* make it independent of page scroll */
         top: 110px; /* header offset */
-        bottom: 50px;
+        bottom: 70px;
         overflow-y: auto; /* now this scrolls */
         width: 500px;
         padding: 10px;
@@ -59,7 +57,7 @@
   display: block;
   font-weight: bold;
   color: var(--menu-item-color);
-  padding: var(--menu-item-spacing) 10px;
+  padding: var(--menu-item-spacing) 15px;
 }
 .my-header nav ul li a.active {
   color: var(--menu-item-selected-color);
