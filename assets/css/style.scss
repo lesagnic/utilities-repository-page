@@ -58,10 +58,10 @@
  */
 .my-section:not(.active) {
   display: none !important;
-  flex: 1;             /* take remaining space when visible */
+  /*flex: 1;              take remaining space when visible */
   min-height: 0;       /* allow scrolling */
   overflow-y: auto;    /* scrollable */
-  box-sizing: border-box;
+  z-index: 9;
 }
 .my-section.active {
   display: block !important;
