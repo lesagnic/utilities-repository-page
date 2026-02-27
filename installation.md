@@ -6,7 +6,7 @@ View the project on Gihub</a>
 en haut de la fenêtre du référentiel Github ;
 * Choisissez **Create a new repository** ;
 * Puis renseignez les informations du référentiel Github à créer ;
-* Cliquez enfin sur le bouton <span class="github-green-btn">Create repository</span></li>
+* Cliquez enfin sur le bouton <span class="github-green-btn">Create repository</span>
 
 ### Ajouter la documentation à un référentiel Github existant</h3>
 
