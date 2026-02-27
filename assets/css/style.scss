@@ -9,47 +9,6 @@
  *          the content corresponding to each menu item. A single div.section element is supposed to be active ;
  *        - The intent is to be able to scrol the active div.my-section element instead of the overall div.wrapper content.
  */
-/* 
- * Content Scrolling 
- */
-/* Base layout: single column (mobile/narrow) */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* full height, but flexible */
-}
-header.site-header,
-footer.site-footer {
-  flex-shrink: 0; /* fixed height */
-}
-.wrapper {
-  flex: 1;              /* take remaining space */
-  display: flex;
-  flex-direction: column;
-  min-height: 0;        /* important for scrollable children */
-}
-/* Scrollable panel inside wrapper */
-.wrapper .panel {
-  flex: 1;
-  overflow-y: auto;
-}
-/* Two-column layout (desktop/wide) */
-@media screen and (min-width: 768px) {
-  body {
-    flex-direction: row; /* columns */
-  }
-
-  /* Left column: header + footer stacked */
-  .site-header,
-  .site-footer {
-    width: 250px; /* adjust to theme */
-  }
-
-  /* Right column: wrapper fills height */
-  .wrapper {
-    height: 100vh; /* now safe to use full height */
-  }
-}
 /*
  * Top Navigation Bar
  */
