@@ -27,7 +27,7 @@ title: Page de référentiel
 <div id="accueil" class="my-section active">
 
 {% capture accueil %}
-{% include accueil.md %}
+{% include_relative accueil.md %}
 {% endcapture %}
 {{ accueil | markdownify }}
   
