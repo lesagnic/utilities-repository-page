@@ -16,7 +16,7 @@
     --menu-item-selected-color: #267CB9; /* Like h1 in Jekyll minimal theme */
     --menu-item-hover-color: #2F5A79; /* In between Like h1 in Jekyll minimal theme */
     --menu-item-color: #393939; /* Like h2 in Jekyll minimal theme */
-    --menu-background: #f5f5f5;
+    --menu-background: #f4f4f4;
     --menu-item-spacing: 5px;
     --menu-and-content-spacing: 30px;
     
@@ -36,9 +36,10 @@
         bottom: 50px;
         overflow-y: auto; /* now this scrolls */
         width: 500px;
-        padding: 5px;
-        border: 1px solid #333;
-        border-bottom: 1px solid transparent;
+        padding: 10px;
+        border: 1px solid #e0e0e0;
+        box-sizing: border-box;
+        border-radius: 5px;
     }
     .my-header nav ul {
         width: 500px;
