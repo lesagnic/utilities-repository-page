@@ -31,7 +31,7 @@
     }
     .my-section {
         position: relative;
-        padding-top: 60px; /* space for fixed header */;
+        scroll-padding-top: 60px;
         min-height: 0;       /* allow scrolling */
         overflow-y: auto;    /* scrollable */
         z-index: 9;
