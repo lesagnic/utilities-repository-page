@@ -46,20 +46,10 @@ title: Page de référentiel
 </div>
 
 <div id="usage" class="my-section">
-  <p>Dès que les fichiers nécessaires ont été clônées dans votre référentiel Github, il convient :</p>
-  <ul>
-    <li>de modifier le fichier index.html pour adapter son contenu au produit objet de votre référentiel Github. Pour cela, 
-    des commentaire commençant pas <i>TODO</i> vous explique quoi faire ;</li>
-    <li>de remplacer les fichiers <i>assets/img/logo.png</i> et <i>assets/img/screenshot.png</i> par le logo et un capture
-    d'écran ou une illustration du produit objet de votre référentil Github ;</li>
-    <li>éventuellement de modifier le fichier <i>assets/css/style.scss</i> pour y ajouter des styles nécessaires
-    pour la documentation que vous souhaitez fournir ;</li>
-    <li>éventuellement d'ajouter d'autres images illustratives dans <i>assets/img</i> que vous pourrez alors référencer dans le
-    fichier <i>index.html</i>.</li>
-  </ul>
-  <p>La documentation fournie doit rester simple. Typiquement, dans l'onglet utilisation, il est recommandé de pointer sur des
-  exemples de mise en oeuvre de votre produit plutôt que de proposer un long discours. Il est aussi possible de proposer
-  un fichier PDF en téléchargement pour fournir les explications complémentaires nécessaires. </p>
+{% capture usage %}
+{% include_relative utilisation.md %}
+{% endcapture %}
+{{ usage | markdownify }}
 </div>
 
 <div id="contributing" class="my-section">
@@ -98,6 +88,7 @@ title: Page de référentiel
     });
   });
 </script>
+
 
 
 
