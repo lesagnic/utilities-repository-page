@@ -45,16 +45,3 @@ du produit de votre future référentiel.
 [license-url]: https://github.com/lesagnic/utilities-repository-page/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-linkedIn-black.svg?style=plastic&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nicolas-lesage-1a2049b0/
-
-
-
-
-
-
-
-
-
-
-
-
-
