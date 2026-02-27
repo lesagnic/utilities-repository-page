@@ -19,7 +19,7 @@
     --menu-background: #f5f5f5;
     --menu-item-spacing: 8px;
     --menu-and-content-spacing: 30px;
-    border: 1px solid blue;
+    border: 1px solid red;
     /* background: white; */
     z-index: 10;
 }
@@ -35,7 +35,6 @@
         width: 500px;  /* adjust for left column width */
         overflow-y: auto; /* now this scrolls */
         z-index: 9;
-        padding-bottom: 50px;   /* empty space at bottom */
     }
 }
 .my-header nav ul {
