@@ -32,7 +32,6 @@
     .my-section {
         position: fixed; /* make it independent of page scroll */
         top: 150px; /* header offset */
-        bottom: calc(; /* stick to bottom of viewport */
         width: 500px;  /* adjust for left column width */
         overflow-y: auto; /* now this scrolls */
         /* z-index: 9;*/
