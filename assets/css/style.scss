@@ -2,39 +2,52 @@
 ---
 @import "jekyll-theme-minimal";
 /*
+ * Issues
+ *    1) Content Scrolling :
+ *        - the index html is supposed to "wrapper" in div.wrapper element ;
+ *        - it defines a div.my-header element containing the a menu and a set of div.my-section elements providing
+ *          the content corresponding to each menu item. A single div.section element is supposed to be active ;
+ *        - The intent is to be able to scrol the active div.my-section element instead of the overall div.wrapper content.
+/*
  * Top Navigation Bar
  */
-body {
-    display: flex !important;
-    flex-direction: column !important;
-    height: 100vh; /* Full viewport height */
+.wrapper {
+    display: flex !important; /* Issue 1 : Would like to have my element container flex */
+    flex-direction: column !important; /* Issue 1 : Would like to fix the flex direction of my element container */
+    height: 100vh !important; /*  Issue 1 : Would like the wrapper to have a Full viewport height */
 }
 .my-header {
-  flex-shrink: 0; /* Prevent shrinking */
+    --menu-item-selected-color: #267CB9; /* Like h1 in Jekyll minimal theme */
+    --menu-item-hover-color: #2F5A79; /* In between Like h1 in Jekyll minimal theme */
+    --menu-item-color: #393939; /* Like h2 in Jekyll minimal theme */
+    --menu-background: #f5f5f5;
+    --menu-item-spacing: 8px;
+    --menu-and-content-spacing: 30px;
+    flex-shrink: 0; /* Issue 1 : Try to prevent shrinking of the menu to have it on the content */
 }
 .my-header nav ul {
     display: flex;
     list-style: none;
     margin-left: 0px;
     padding: 0px;
-    gap: 8px;
-    margin-bottom: 30px;
-    background: #f5f5f5;
+    gap: var(--menu-item-spacing);
+    margin-bottom: var(--menu-and-content-spacing);
+    background: var(--menu-background);
 }
 .my-header nav ul li a {
   text-decoration: none;
   display: block;
   font-weight: normal;
-  color: #333333;
+  color: var(--menu-item-color);
   padding: 10px;
 }
 .my-header nav ul li a.active {
   font-weight: bold;
-  color: #0366d6;
+  color: var(--menu-item-selected-color);
 }
 .my-header nav ul li a:not(.active):hover {
   font-weight: normal;
-  color: #0366d6;
+  color: var(--menu-item-hover-color);
 }
 /*
  * Main Content pseudo-section
@@ -44,11 +57,11 @@ body {
 }
 .my-section.active {
   display: block !important;
-  overflow-y: auto; /* Scroll if content overflows */
-  flex: 1; /* Take remaining space */
+  overflow-y: auto; /* Issue 1 : would like to scroll if content overflows */
+  flex: 1; /* Issue 1 : would like to take remaining space */
 }
 /*
- * Githib styling
+ * Github pseudo-styling
  */
 .github-green-btn {
     background: green;
