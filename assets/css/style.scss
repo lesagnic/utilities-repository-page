@@ -17,7 +17,7 @@
     --menu-item-hover-color: #2F5A79; /* In between Like h1 in Jekyll minimal theme */
     --menu-item-color: #393939; /* Like h2 in Jekyll minimal theme */
     --menu-border-color: #E0E0E0; /* Like other borders of Jekyll minimal theme */
-    --menu-background: #f4f4f4; /* Like other backgrounds of Jekyll minimal theme */
+    --menu-background: orange; /*#f4f4f4;  Like other backgrounds of Jekyll minimal theme */
     --menu-item-spacing: 8px;
     --menu-and-content-spacing: 30px; /* Usefull in 1 column mode of Jekyll minimal theme */
 }
@@ -39,6 +39,17 @@
         border-radius: 5px;
         background-color: #fff;
         background-clip: padding-box;
+    }
+    .my-section::-webkit-scrollbar {
+        width: 12px;
+    }
+    .my-section::-webkit-scrollbar-track {
+      background: #fff; /* match section background */
+      border-radius: 5px;
+    }
+    .my-section::-webkit-scrollbar-thumb {
+        background: #ccc;
+        border-radius: 12px;
     }
     .my-header nav ul {
         width: 500px;
