@@ -41,15 +41,15 @@
         background-clip: padding-box;
     }
     .my-section::-webkit-scrollbar {
-        width: 12px;
+        width: 5px;
     }
     .my-section::-webkit-scrollbar-track {
-      background: #fff; /* match section background */
+      /* background: #fff; match section background */
       border-radius: 5px;
     }
     .my-section::-webkit-scrollbar-thumb {
-        background: #ccc;
-        border-radius: 12px;
+        /*background: #ccc;*/
+        border-radius: 5px;
     }
     .my-header nav ul {
         width: 500px;
