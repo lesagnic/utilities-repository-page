@@ -12,6 +12,11 @@
 /*
  * Top Navigation Bar
  */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 0; /* important for flex children to shrink */
+}
 .my-header {
     --menu-item-selected-color: #267CB9; /* Like h1 in Jekyll minimal theme */
     --menu-item-hover-color: #2F5A79; /* In between Like h1 in Jekyll minimal theme */
@@ -19,12 +24,10 @@
     --menu-background: #f5f5f5;
     --menu-item-spacing: 8px;
     --menu-and-content-spacing: 30px;
-    position: fixed;
-  top: 0;
-  left: 0;
-  right: 0; /* full width */
-  height: 60px; /* adjust to your menu height */
-  z-index: 1000; /* stay above content */
+    position: sticky;
+  top: 0; /* stick to top of wrapper's scroll area */
+  z-index: 10;
+  flex-shrink: 0; /* don't shrink */
 }
 .my-header nav ul {
     display: flex;
@@ -59,10 +62,9 @@
 .my-section.active {
   display: block !important;
   overflow-y: auto; /* Issue 1 : would like to scroll if content overflows */
-  position: relative;
-  margin-top: 60px; /* same as .my-header height */
-  height: calc(100vh - 60px); /* fill remaining space */
-  box-sizing: border-box;
+  flex: 1;              /* take remaining space in wrapper */
+  min-height: 0;        /* allow scrolling */
+  overflow-y: auto;     /* scroll only here */
 }
 /*
  * Github pseudo-styling
