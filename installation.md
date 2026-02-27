@@ -1,5 +1,5 @@
 ### Création d'un nouveau référentiel Github
- 
+
 * Accéder au référentiel Github en cliquant sur <a href="https://github.com/lesagnic/utilities-repository-page">
 View the project on Gihub</a>
 * Cliquer ensuite sur le bouton <span class="github-green-btn">Use this template &#9662;</span> dans le coin droit 
@@ -14,11 +14,11 @@ Cela revient à ajouter à votre référentiel Github les fichiers suivants :
 * <a href="index.html">index.html</a> ;
 * <a href="_config.yml">_config.yml</a> ;
 * ceux contenant la documentation à adapter :
- * <a href="accueil.md">accueil.md</a> ;
- * <a href="prerequis.md">prerequis.md</a> ;
- * <a href="installation.md">installation.md</a> ;
- * <a href="utilisation.md">utilisation.md</a> ;
- * <a href="contribution.md">contribution.md</a> ;
+* <a href="accueil.md">accueil.md</a> ;
+	* <a href="prerequis.md">prerequis.md</a> ;
+	* <a href="installation.md">installation.md</a> ;
+	* <a href="utilisation.md">utilisation.md</a> ;
+	* <a href="contribution.md">contribution.md</a> ;
 * <a href="assets/css/style.scss">assets/css/style.scss</a>.
 
 Pour les fichiers suivants vous avez intérêt à déposer à la place votre logo et la capture d'écran qui s'affichera sur la page d'accueil.
