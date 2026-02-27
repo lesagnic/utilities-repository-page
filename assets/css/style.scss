@@ -58,13 +58,13 @@
  */
 .my-section:not(.active) {
   display: none !important;
+  flex: 1;             /* take remaining space when visible */
+  min-height: 0;       /* allow scrolling */
+  overflow-y: auto;    /* scrollable */
+  box-sizing: border-box;
 }
 .my-section.active {
   display: block !important;
-  overflow-y: auto; /* Issue 1 : would like to scroll if content overflows */
-  flex: 1;              /* take remaining space in wrapper */
-  min-height: 0;        /* allow scrolling */
-  overflow-y: auto;     /* scroll only here */
 }
 /*
  * Github pseudo-styling
