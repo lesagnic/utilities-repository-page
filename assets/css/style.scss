@@ -18,7 +18,7 @@
     --menu-item-color: #393939; /* Like h2 in Jekyll minimal theme */
     --menu-border-color: #E0E0E0; /* Like other borders of Jekyll minimal theme */
     --menu-background: #f4f4f4; /* Like other backgrounds of Jekyll minimal theme */
-    --menu-item-spacing: 5px;
+    --menu-item-spacing: 8px;
     --menu-and-content-spacing: 30px; /* Usefull in 1 column mode of Jekyll minimal theme */
 }
 /* Two-column mode : fixed menu (my-header) and scrolling content (my-section) */
@@ -59,7 +59,7 @@
   display: block;
   font-weight: bold;
   color: var(--menu-item-color);
-  padding: 15px var(--menu-item-spacing);
+  padding: 10px var(--menu-item-spacing); /* top/bottom left/right */
 }
 .my-header nav ul li a.active {
   color: var(--menu-item-selected-color);
@@ -83,7 +83,7 @@
     background: green;
     color: white;
     font-weight: bold;
-    padding: 2px 7px; /* left/right top/bottom */
+    padding: 2px 7px; /* top/bottom left/right */
     border: 1px solid black;
     border-radius: 5px;
 }
