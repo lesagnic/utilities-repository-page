@@ -21,7 +21,6 @@
     --menu-and-content-spacing: 30px;
     border: 1px solid green;
     /* background: white; */
-    z-index: 10;
 }
 /* Two-column mode : fixed menu (my-header) and scrolling content (my-section) */
 @media screen and (min-width: 980px) {
@@ -34,7 +33,7 @@
         top: 110px; /* header offset */
         bottom: 50px;
         overflow-y: auto; /* now this scrolls */
-        z-index: 9;
+        width: 500px;
     }
 }
 .my-header nav ul {
