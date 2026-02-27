@@ -29,6 +29,8 @@ du produit de votre future référentiel.
 [BestReadMe-Url]: https://github.com/othneildrew/Best-README-Template
 [Jekyll]: https://img.shields.io/badge/Jekyll-Github%20Page%20Themes-000000?logo=Jekyll&style=plastic&labelColor=F7AF40
 [Jekyll-url]: https://github.com/pages-themes
+[Markdown]: https://img.shields.io/badge/Markdown-Basic%20Syntax-000000?logo=Markdown&style=plastic&labelColor=F7AF40
+[Markdown-url]: [https://www.markdownguide.org/](https://www.markdownguide.org/basic-syntax/)
 <!-- TODO : Check that these URLs are related to your account and your repository -->
 [contributors-shield]: https://img.shields.io/github/contributors/lesagnic/utilities-repository-page.svg?style=plastic
 [contributors-url]: https://github.com/lesagnic/utilities-repository-page/graphs/contributors
@@ -42,6 +44,7 @@ du produit de votre future référentiel.
 [license-url]: https://github.com/lesagnic/utilities-repository-page/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-linkedIn-black.svg?style=plastic&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nicolas-lesage-1a2049b0/
+
 
 
 
