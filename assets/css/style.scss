@@ -29,6 +29,7 @@
         top: 30px;
     }
     .my-section {
+        position: fixed;
         top: 60px;
           /*flex: 1;              take remaining space when visible */
         min-height: 0;       /* allow scrolling */
@@ -37,7 +38,7 @@
     }
 }
 .my-header nav ul {
-    /*display: flex;*/
+    display: flex;
     list-style: none;
     margin-left: 0px;
     padding: 0px;
