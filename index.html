@@ -26,7 +26,10 @@ title: Page de référentiel
 
 <div id="accueil" class="my-section active">
 
-{{ "{% include accueil.md %}" | markdownify }}
+{% capture accueil %}
+{% include accueil.md %}
+{% endcapture %}
+{{ accueil | markdownify }}
   
 </div> <!-- End of section -->
 
@@ -126,6 +129,7 @@ title: Page de référentiel
     });
   });
 </script>
+
 
 
 
