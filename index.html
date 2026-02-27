@@ -12,7 +12,7 @@ title: Page de référentiel
     <ul>
       <li><a href="#" class="active" data-section="accueil">Accueil</a></li>
       <li><a href="#" class="" data-section="prerequisites">Prérequis</a></li>
-      <li><a href="#" class="" data-section="installation">Mise en &oelig;uvre</a></li>
+      <li><a href="#" class="" data-section="installation">Installation</a></li>
       <li><a href="#" class="" data-section="usage">Utilisation</a></li>
       <li><a href="#" class="" data-section="contributing">Contribution</a></li>
     </ul>
@@ -36,31 +36,13 @@ title: Page de référentiel
 {% include_relative prerequis.md %}
 {% endcapture %}
 {{ prerequisites | markdownify }} 
-<p>OK</p>
 </div> <!-- Fin de section -->
 
 <div id="installation" class="my-section">
-  <h3>Création d'un nouveau référentiel Github</h3>
-  <ul>
-    <li>Accéder au référentiel Github en cliquant sur <a href="https://github.com/lesagnic/utilities-repository-page">
-      View the project on Gihub</a></li>
-    <li>Cliquer ensuite sur le bouton <span class="github-green-btn">Use this template &#9662;</span> dans le coin droit 
-      en haut de la fenêtre du référentiel Github ;</li>
-    <li>Choisissez <strong>Create a new repository</strong> ;</li>
-    <li>Puis renseignez les informations du référentiel Github à créer ;</li>
-    <li>Cliquez enfin sur le bouton <span class="github-green-btn">Create repository</span></li>
-  </ul>
-  <h3>Ajouter la documentation à un référentiel Github existant</h3>
-  <p>Cela revient à ajouter à votre référentiel Github les fichiers suivants que vous trouverez en cliquant sur <a href="https://github.com/lesagnic/utilities-repository-page">
-      View the project on Gihub</a> :</p>
-  <ul>
-    <li><a href="index.html">index.html</a> ;</li>
-    <li><a href="_config.yml">_config.yml</a> ;</li>
-    <li><a href="assets/img/logo.png">assets/img/logo.png</a> ;</li>
-    <li><a href="assets/img/screenshot.png">assets/img/screenshot.png</a> ;</li>
-    <li><a href="assets/css/style.scss">assets/css/style.scss</a>.</li>
-  </ul>
-  
+{% capture installation %}
+{% include_relative installation.md %}
+{% endcapture %}
+{{ installation | markdownify }} 
 </div>
 
 <div id="usage" class="my-section">
@@ -116,6 +98,7 @@ title: Page de référentiel
     });
   });
 </script>
+
 
 
 
