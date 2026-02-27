@@ -23,7 +23,7 @@
     background: white;
     z-index: 10;*/
 }
-/* Two-column mode: now safe to give wrapper full height */
+/* Two-column mode : fixed menu (my-header) and scrolling content (my-section) */
 @media screen and (min-width: 940px) {
     .my-header {
         position: fixed;
