@@ -11,18 +11,18 @@ en haut de la fenêtre du référentiel Github ;
 
 Cela revient à ajouter à votre référentiel Github les fichiers suivants :
 * [index.html][index.html-url] ;
-* <a href="_config.yml">_config.yml</a> ;
+* [_config.yml][_config.yml-url] ;
 * ceux contenant la documentation à adapter :
-	* <a href="accueil.md">accueil.md</a> ;
-	* <a href="prerequis.md">prerequis.md</a> ;
-	* <a href="installation.md">installation.md</a> ;
-	* <a href="utilisation.md">utilisation.md</a> ;
-	* <a href="contribution.md">contribution.md</a> ;
-* <a href="assets/css/style.scss">assets/css/style.scss</a>.
+	* [accueil.md][accueil.md-url] ;
+ 	* [prerequis.md][prerequis.md-url] ;
+ 	* [installation.md][installation.md-url] ;
+    * [utilisation.md][utilisation.md-url] ;
+    * [contribution.md][contribution.md-url] ;
+* [assets/css/style.scss][style.scss-url] ;
 
 Pour les fichiers suivants vous avez intérêt à déposer à la place votre logo et la capture d'écran qui s'affichera sur la page d'accueil.
-* <a href="assets/img/logo.png">assets/img/logo.png</a> ;
-* <a href="assets/img/screenshot.png">assets/img/screenshot.png</a>.
+* [assets/img/logo.png][logo.png-url] ;
+* [assets/img/screenshot.png][screenshot.png-url].
 
 [index.html-url]: index.html
 [_config.yml-url]: _config.yml
@@ -32,3 +32,5 @@ Pour les fichiers suivants vous avez intérêt à déposer à la place votre log
 [utilisation.md-url]: utilisation.md
 [contribution.md-url]: contribution.md
 [style.scss-url]: assets/css/style.scss
+[logo.png-url]: assets/img/logo.png
+[screenshot.png-url]: assets/img/screenshot.png
