@@ -12,4 +12,4 @@ faisant l'objet dur référentiel à documenter ;
 * <a href="assets/css/style.scss">assets/css/style.scss</a> contrôle les styles de la documentation. 
 Il peut être modifié pour ajuster les styles de la page de documentation. Par contre, si le produit
 contient du contenu HTML nécessitant des instructions CSS, il est recommandé de stocker ses instructions
-dans un autre fichier CSS qui pourra ainsi plus faciemement être déployé.
+dans un autre fichier CSS qui pourra ainsi être plus facilement déployé.
