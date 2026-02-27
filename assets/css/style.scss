@@ -55,11 +55,10 @@
   padding: 10px;
 }
 .my-header nav ul li a.active {
-  font-weight: bold;
   color: var(--menu-item-selected-color);
 }
 .my-header nav ul li a:not(.active):hover {
-  font-weight: normal;
+  font-weight: bold;
   color: var(--menu-item-hover-color);
 }
 /*
