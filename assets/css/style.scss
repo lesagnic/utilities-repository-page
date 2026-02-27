@@ -20,7 +20,7 @@
     --menu-item-spacing: 8px;
     --menu-and-content-spacing: 30px;
     position: fixed;
-  top: 0; /* stick to top of wrapper's scroll area */
+  top: 30;
   z-index: 10;
 }
 .my-header nav ul {
