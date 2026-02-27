@@ -11,3 +11,6 @@ pour la documentation que vous souhaitez fournir ;
 > La documentation fournie doit rester simple. Typiquement, dans l'onglet utilisation, il est recommandé de pointer sur des
 exemples de mise en oeuvre de votre produit plutôt que de proposer un long discours. Il est aussi possible de proposer
 un fichier PDF en téléchargement pour fournir les explications complémentaires nécessaires.
+
+Il n'est pas indispensable de modifier le fichier index.html qui se contente de proposer un menu permettant d'accéder aux différentes
+parties de la documentation. Vous devrez cependant le modifier (en suivant les instructions commencant par **TODO**) si vous souhaitez ajouter ou supprimer des sections de documentations.
