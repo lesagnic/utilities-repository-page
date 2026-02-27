@@ -1,6 +1,9 @@
 ---
 ---
 @import "jekyll-theme-minimal";
+/*
+ * Top Navigation Bar
+ */
 body {
     display: flex !important;
     flex-direction: column !important;
@@ -13,7 +16,6 @@ body {
   list-style: none;
   margin-left: 0px;
   padding: 0px;
-  display: flex;
   gap: 8px;
   margin-bottom: 30px;
   background: #f5f5f5;
@@ -33,6 +35,9 @@ body {
   font-weight: normal;
   color: #0366d6;
 }
+/*
+ * Main Content pseudo-section
+ */
 .my-section:not(.active) {
   display: none !important;
 }
@@ -40,4 +45,15 @@ body {
   display: block !important;
   overflow-y: auto; /* Scroll if content overflows */
   flex: 1; /* Take remaining space */
+}
+/*
+ * Githib styling
+ */
+.gitub-green-btn {
+    background: green;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
 }
