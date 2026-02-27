@@ -21,10 +21,6 @@ du produit de votre future référentiel.
 [![Best-README-Template][BestReadme]][BestReadMe-Url]
 [![Jekyll Themes][Jekyll]][Jekyll-url]
 
-### Autres informations
-
-
-
 <!-- TODO : Replace the dummy screenshot.png file with your screenshot in /assets/img -->
 [product-screenshot]: assets/img/screenshot.png
 <!-- TODO : Replace these URLs and shields with those of your Built in -->
@@ -45,6 +41,7 @@ du produit de votre future référentiel.
 [license-url]: https://github.com/lesagnic/utilities-repository-page/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-linkedIn-black.svg?style=plastic&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nicolas-lesage-1a2049b0/
+
 
 
 
