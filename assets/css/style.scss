@@ -40,11 +40,11 @@
         padding-right: 5px; /* space for scrollbar */
     }
     .my-section::-webkit-scrollbar {
-        width: 5px;
+        width: 10px;
     }  
     .my-section::-webkit-scrollbar-thumb {
-        background: red; /*#888;*/
-        border-radius: 10px;
+        background: #888;
+        border-radius: 5px;
     }
     .my-header nav ul {
         width: 500px;
