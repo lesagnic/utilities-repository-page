@@ -1,6 +1,6 @@
 Dès que les fichiers nécessaires ont été clônées dans votre référentiel Github, il convient :
 * de modifier le fichier **_config.yml**, notamment de renseigner les propriétés **title** et **description** avec un le titre et un slogan (ou très brève description) qui apparaîtront dans l'en-tête du site ;
-* de modifier les fichiers **accueil.md**, **prerequis.md**, **installation.md**, **utilisation.md** et **contribution.md** pour adapter leur contenu au produit objet de votre référentiel Github. Pour cela, des commentaire commençant pas **TODO** vous expliquent quoi faire. Ces fichiers utilisent la notation ![MarkDown][Mardown-url] ;
+* de modifier les fichiers **accueil.md**, **prerequis.md**, **installation.md**, **utilisation.md** et **contribution.md** pour adapter leur contenu au produit objet de votre référentiel Github. Pour cela, des commentaire commençant pas **TODO** vous expliquent quoi faire. Ces fichiers utilisent la notation [Mardown-url] ;
 * de remplacer les fichiers **assets/img/logo.png** et **assets/img/screenshot.png** par le logo et une capture
 d'écran ou une illustration du produit objet de votre référentil Github ;
 * éventuellement :
