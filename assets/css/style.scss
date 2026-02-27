@@ -24,14 +24,14 @@
     z-index: 10; */
 }
 /* Two-column mode : fixed menu (my-header) and scrolling content (my-section) */
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 980px) {
     .my-header {
         position: fixed;
         top: 50px;
     }
     .my-section {
         position: fixed; /* make it independent of page scroll */
-        top: 150px; /* header offset */
+        top: 130px; /* header offset */
         bottom: 50px;
         width: 500px;  /* adjust for left column width */
         overflow-y: auto; /* now this scrolls */
