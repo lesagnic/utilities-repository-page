@@ -19,7 +19,7 @@
     --menu-background: #f5f5f5;
     --menu-item-spacing: 5px;
     --menu-and-content-spacing: 30px;
-    border: 1px solid red;
+    
     /* background: white; */
 }
 /* Two-column mode : fixed menu (my-header) and scrolling content (my-section) */
@@ -27,6 +27,8 @@
     .my-header {
         position: fixed;
         top: 50px;
+        border: 1px solid #333;
+        border-bottom: 1px solid transparent
     }
     .my-section {
         position: fixed; /* make it independent of page scroll */
@@ -34,6 +36,9 @@
         bottom: 50px;
         overflow-y: auto; /* now this scrolls */
         width: 500px;
+        padding: 5px
+        border: 1px solid #333;
+        border-bottom: 1px solid transparent
     }
     .my-header nav ul {
         width: 500px;
