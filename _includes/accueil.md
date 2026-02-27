@@ -11,7 +11,8 @@ du produit de votre future référentiel.
 ### Modules utilisés
 
 <!-- TODO : Replace these shields with the shields of your Built with modules -->
-[![Best-README-Template][BestReadme]][BestReadMe-Url][![Jekyll Themes][Jekyll]][Jekyll-url]
+[![Best-README-Template][BestReadme]][BestReadMe-Url]
+[![Jekyll Themes][Jekyll]][Jekyll-url]
 
 ### Autres informations
 
@@ -40,9 +41,9 @@ du produit de votre future référentiel.
 [issues-url]: https://github.com/lesagnic/utilities-repository-page/issues
 [license-shield]: https://img.shields.io/github/license/lesagnic/utilities-repository-page.svg?style=plastic
 [license-url]: https://github.com/lesagnic/utilities-repository-page/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=555
-
+[linkedin-shield]: https://img.shields.io/badge/-linkedIn-black.svg?style=plastic&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nicolas-lesage-1a2049b0/
+
 
 
 
