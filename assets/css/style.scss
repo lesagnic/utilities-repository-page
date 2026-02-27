@@ -24,10 +24,17 @@
 }
 /* Two-column mode: now safe to give wrapper full height */
 @media screen and (min-width: 768px) {
-.my-header {
-    position: fixed;
-    top: 30;
-  }
+    .my-header {
+        position: fixed;
+        top: 30;
+    }
+    .my-section {
+        margin-top: 60px;
+          /*flex: 1;              take remaining space when visible */
+        min-height: 0;       /* allow scrolling */
+        overflow-y: auto;    /* scrollable */
+        z-index: 9;
+    }
 }
 .my-header nav ul {
     display: flex;
@@ -58,10 +65,6 @@
  */
 .my-section:not(.active) {
   display: none !important;
-  /*flex: 1;              take remaining space when visible */
-  min-height: 0;       /* allow scrolling */
-  overflow-y: auto;    /* scrollable */
-  z-index: 9;
 }
 .my-section.active {
   display: block !important;
