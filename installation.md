@@ -14,7 +14,7 @@ Cela revient à ajouter à votre référentiel Github les fichiers suivants :
 * <a href="index.html">index.html</a> ;
 * <a href="_config.yml">_config.yml</a> ;
 * ceux contenant la documentation à adapter :
-* <a href="accueil.md">accueil.md</a> ;
+	* <a href="accueil.md">accueil.md</a> ;
 	* <a href="prerequis.md">prerequis.md</a> ;
 	* <a href="installation.md">installation.md</a> ;
 	* <a href="utilisation.md">utilisation.md</a> ;
