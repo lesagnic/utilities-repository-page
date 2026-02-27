@@ -44,11 +44,11 @@
         width: 5px;
     }
     .my-section::-webkit-scrollbar-track {
-      /* background: #fff; match section background */
+      background: #fff; /* match section background */
       border-radius: 5px;
     }
     .my-section::-webkit-scrollbar-thumb {
-        /*background: #ccc;*/
+        background: #ccc;
         border-radius: 5px;
     }
     .my-header nav ul {
